@@ -2,7 +2,7 @@
 
 **Manuscript.** "Range Errors as Uniform Phase Rotations in Continuous Aperture
 Arrays: Consequences for Near-Field Channel Estimation."
-Submitted to *IEEE Wireless Communications Letters*.
+Submitted to *IEEE Wireless Communications Letters*. Archived at doi:[10.5281/zenodo.23297405](https://doi.org/10.5281/zenodo.23297405).
 Author: Yijie Zhao (Xidian University), ORCID 0009-0007-9222-3234.
 
 This package contains the manuscript source, the supplementary source, the
