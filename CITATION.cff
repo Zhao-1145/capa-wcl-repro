@@ -8,7 +8,8 @@ authors:
     affiliation: "Xidian University, Xi'an, Shaanxi 710071, China"
 type: software
 license: MIT
-repository-code: ""
+doi: "10.5281/zenodo.23297405"
+repository-code: "https://github.com/Zhao-1145/capa-wcl-repro"
 keywords:
   - continuous aperture array
   - near-field channel estimation
