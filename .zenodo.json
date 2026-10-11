@@ -1,0 +1,29 @@
+{
+  "title": "Reproducibility package: Range Errors as Uniform Phase Rotations in Continuous Aperture Arrays",
+  "upload_type": "software",
+  "description": "Code, trained checkpoints, and archived result files for the manuscript \"Range Errors as Uniform Phase Rotations in Continuous Aperture Arrays: Consequences for Near-Field Channel Estimation\" (submitted to IEEE Wireless Communications Letters). Running `run` recomputes every quantitative claim in the manuscript from the archived JSON files (301/301 checks).",
+  "creators": [
+    {
+      "name": "Zhao, Yijie",
+      "orcid": "0009-0007-9222-3234",
+      "affiliation": "Xidian University"
+    }
+  ],
+  "keywords": [
+    "continuous aperture array",
+    "near-field channel estimation",
+    "6G",
+    "deep learning",
+    "Cramer-Rao bound"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "IEEE Wireless Communications Letters",
+      "relation": "isSupplementTo",
+      "scheme": "other"
+    }
+  ]
+}
