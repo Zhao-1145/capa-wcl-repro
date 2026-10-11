@@ -1,0 +1,12 @@
+{
+  "M": 256,
+  "N": 6000,
+  "seed": 999999,
+  "rayleigh_m": 20.0,
+  "lambda": 0.1,
+  "r_range": [
+    5.0,
+    18.0
+  ],
+  "purpose": "independent holdout"
+}

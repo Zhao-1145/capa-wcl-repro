@@ -1,0 +1,21 @@
+{
+  "lambda": 0.1,
+  "cases": {
+    "r10_th0.6": {
+      "r_true": 10.0,
+      "th_true": 0.6,
+      "median_peak_gap": 0.10000000000012221,
+      "n_local_min": 3,
+      "raw_range": Infinity,
+      "gf_range": Infinity
+    },
+    "r16_th0.2": {
+      "r_true": 16.0,
+      "th_true": 0.2,
+      "median_peak_gap": 0.10000000000012399,
+      "n_local_min": 3,
+      "raw_range": Infinity,
+      "gf_range": 115994024.0
+    }
+  }
+}

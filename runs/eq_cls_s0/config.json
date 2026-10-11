@@ -1,0 +1,20 @@
+{
+  "mode": "raw",
+  "head": "cls",
+  "hidden": "1024,512,256",
+  "batch": 2048,
+  "lr": 0.001,
+  "minutes": 150.0,
+  "data": "F:/capa_data/tr_M256",
+  "out": "runs/eq_cls_s0",
+  "seed": 0,
+  "val_every": 250,
+  "loss": "auto",
+  "max_steps": 4000,
+  "n_train": 1000000,
+  "w_th": 1.0,
+  "M": 256,
+  "in_dim": 512,
+  "params": 1280128,
+  "N": 2000000
+}

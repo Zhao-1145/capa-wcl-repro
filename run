@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Code Ocean / Zenodo entry point.
+# Scope: re-run the manuscript-number vs archived-JSON reconciliation only.
+# It does NOT retrain models; the training pipeline is not part of this package.
+set -uo pipefail
+cd "$(dirname "$0")"
+mkdir -p results
+echo [run] verify_paper.py | tee results/verify_paper.log
+python3 verify_paper.py 2>&1 | tee -a results/verify_paper.log
+rc=${PIPESTATUS[0]}
+echo [run] exit code $rc | tee -a results/verify_paper.log
+exit $rc

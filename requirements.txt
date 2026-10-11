@@ -1,0 +1,10 @@
+# Reproducibility package -- environment
+#
+# Core verification: verify_paper.py uses the Python standard library only.
+# The other checks need numpy; check_figs.py and make_figs.py additionally
+# need matplotlib (Agg backend, no display).
+# Training the estimator needs torch (CUDA recommended).
+
+numpy>=1.26
+matplotlib>=3.7
+torch>=2.0
